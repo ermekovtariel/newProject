@@ -1,0 +1,155 @@
+.startOfContent{
+    display: grid;
+    grid-column: auto auto auto auto;
+    grid-row: auto auto;
+    text-align: center;
+}
+.i1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.i2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.i3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.i4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.t1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.t2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.t3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.t4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.tt{
+    font-weight: 700;
+    font-size: 30px;
+}
+.cardTextCenter{
+    position: relative;
+    text-align: left;
+    font-size: large;
+    align-content: center;
+}
+.bgz{
+    background-image: url('https://i2.rozetka.ua/goods/17701609/192886751_images_17701609849.jpg');
+    font-weight: 700;
+    font-size: 40px;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: rgb(83, 190, 243); /* Цвет линии */
+    width: 200px;
+    color: rgb(0, 255, 238); /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+.stock{
+background-image: url('https://kaluga24.tv/wp-content/uploads/2017/09/5bc66fcc3e8ec3c095d8.jpg');
+background-size: 100%;  
+}
+
+.zayavka{
+    font-weight: 500;
+}
+.g2{
+  background-position-x: right;
+    text-align: center;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    border-radius: 5px;
+    width: 350px;
+    margin: auto;
+    padding: auto;
+}
+.gridInContainerCenter{
+    display: grid;
+    grid-column: auto auto auto;
+    grid-row:  auto auto auto auto;
+
+}
+
+.s1{
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.s2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.s3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.s4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.img{
+    height: 10%;
+    width: 10%;
+}
+
+.tGrid{
+    display: grid;
+    grid-column: auto auto auto;
+    grid-row: 100%;
+}
+.tt1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+.tt2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.tt3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
